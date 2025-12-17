@@ -1,0 +1,16 @@
+{
+  "name": "Debian SAE 1.03",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "ms-vscode.cpptools", 
+        "foxundermoon.shell-format" 
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'Bienvenue sur la VM Debian du projet SAE 1.03'"
+}
